@@ -1,0 +1,681 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* HEADER SECTION  */
+
+header {
+    top: 0;
+}
+
+html, body {
+    background-color: #CBCECB;
+    line-height: 1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    overflow-x: hidden;
+}
+
+h2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 3rem;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+/* Shared Styling Css */
+.project-card, .experience-card{
+    padding: 1rem;
+    border-radius: 25px;
+    width: 300px;
+    margin: 10px;
+}
+
+.about-me-section, .experience-section{
+    color: black;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    text-decoration: none;
+    margin: 15px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 1px 5px rgba(0,0,0,0.3);
+    /* width:700px; */
+    width: 915px;
+    font-weight: bold;
+    flex: 1 1 200px; 
+}
+
+.project-section-ux, .about-me-content-position, .experience-section-position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #D9D9D9; */
+    border-radius: 25px;
+}
+
+.about-me-section p ,.experience-section p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+
+/* Responsive Design */
+.hamburger-bar-container{
+    display: none;
+}
+
+.hamburger-bar, .hamburger-bar img {
+    background-color: none;
+    max-height: 50px;
+    /* Adjust logo size */
+    width: auto;
+}
+
+/* Close btn for the navbar menu  */
+.close-btn{
+    display: none;
+}
+
+/* Navigation Links */
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 2rem;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #202023;
+    /* Hover color */
+}
+
+/* Call Us Button */
+.call-us-btn {
+    background-color:#ADB0AD ;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.call-us-btn:hover {
+    background-color:#fff ;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 1rem 2rem;
+    width: fit-content;
+    position: absolute;
+    right: 0;
+    top:0;
+}
+
+.profile-logo-container{
+    background-color: black;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-logo{
+    height: 150px;
+    width: 150px;
+}
+
+.logo , .project-logo {
+    border-radius: 50%;
+    height: 125px;
+    width: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    background: black;
+}
+
+.logo img, .project-logo img {
+    width: 75px;
+    max-height: 75px;
+}
+
+
+/* --------------------------------ABOUT-ME-SECTION-CARD*/
+section {
+    background-color: #BFC1C2;
+    color: black;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    text-decoration: none;
+    margin: 15px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+
+.about-me-section p {
+    margin: 0 auto;
+}
+
+.about-me{
+    display: flex;
+    justify-content: center;
+}
+
+.about-me-section{
+    background-color: white;
+}
+
+.about-me-card{
+    padding: 1rem;
+    width: 700px;
+    background: none;
+}
+
+.about-me-card p{
+    margin: 0 45px;
+}
+
+.experience-section{
+    background-color: black;
+    color: white;
+    margin-top: 60px;
+
+}
+
+.experience-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.experience-card-container h2 {
+    font-size: 2rem;
+}
+
+.experience-card{
+    padding: 1rem;
+    width: 475px;
+}
+
+.experience-btns{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+}
+
+
+.content{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+/* --------------------------------Project-Section*/
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-section {
+    display: flex;
+    margin: 0 55px;
+    flex-wrap: wrap;
+    width: 1920px;
+    justify-content: space-between;
+}
+
+
+
+
+.project-card{
+    background-color: #D9D9D9;
+}
+
+
+.project-section p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.project-section a {
+    margin: 15px;
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    /* background-color:#fff; */
+}
+
+.project-btn {
+    background-color:#fff;
+}
+
+.project-btn-second {
+    background-color:#56C6B5;
+}
+
+
+.project-btn , 
+.project-btn-second{
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    color: black;
+}
+
+
+.project-btn:hover {
+    color: #56C6B5;
+}
+
+.project-btn-second:hover {
+    color: #fff;
+}
+
+
+/* FOOTER SECTION  */
+footer {
+    background-color: #fff;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    margin: 15px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+
+.footer-section {
+    /* Ensures responsiveness */
+    flex: 1 1 200px; 
+    min-width: 150px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.footer-section-ux-container, .footer-section-web-container, .footer-section-seo-container, .footer-section-security-container{
+    width: 310px;
+    margin: 15px;
+}
+
+
+
+
+.footer-section-ux{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    background-color: #ADB0AD;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.footer-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-section p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.footer-section a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 18px;
+}
+
+.footer-section a:hover {
+    color: beige;
+    /* Example hover color */
+}
+
+/*---------------------------- Detailed Styling  */
+.footer-disclaimer-socials {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.disclaimer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.disclaimer-section li a {
+    margin-right: 15px;
+    color: #aaaaaa;
+}
+
+.connect-h3 {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-social-icons {
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-social-icons li {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.footer-icon {
+    width: 25px;
+    height: 25px;
+}
+
+/* This is for the copyright banner on the bottom of the footer */
+.footer-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+
+
+
+/* MEDIA QUERIES----Mobile Design  */
+/* Responsive Design */
+@media (max-width: 768px){
+h2 {
+    font-size: 2rem;
+}
+
+
+
+/*--------------------------------Hamburger Bar For Mobile */
+/* Style the hamburger menu */
+.hamburger-bar-container{
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: opacity color 0.3s ease, background-color 0.3s ease;
+}
+
+.hamburger-bar {
+        width: 30px;
+        height: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        border-radius: 45%;
+    }
+
+    .bar {
+        height: 5px;
+        width: 100%;
+        background-color:black;
+        border-radius: 20px;
+        /* Default color of the bars */
+    }
+
+/* X cursor section for closing the menu bar  */
+.close-btn{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color:#E0E2DB;
+    position: relative;
+
+}
+
+.nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: #212023;
+    /* Optional: make it distinct */
+    position: absolute;
+    top: 0%;
+    right: 0;
+    width: 100%;
+    /* Hidden by default */
+    padding: 1rem;
+    margin:70px auto;
+}
+
+.nav-links li {
+    margin: 1rem 0;
+}
+
+.navbar .menu-toggle {
+        display: block;
+        color: #fff;
+        font-size: 1.5rem;
+        cursor: pointer;
+}
+
+/* Show Menu When Active */ */
+.nav-links.active {
+        display: flex;
+        transform: translateY(0); /* Reset the translation */
+}
+.nav-links a:focus, .nav-links a:active{
+        color: #b5b5b5;
+        outline: none;
+}
+.call-us-btn:focus, .call-us-btn:active {
+        background-color: #D2D4C8;
+        outline: none;
+        transition:background color 0.3s ease;
+}
+/* SECTIONS ON MOBILE */
+
+.content{
+    flex-wrap: wrap;
+}
+
+.about-me-section{
+    width: 400px;
+    margin-top: 75px;
+}
+
+.experience-card-container{
+    height: 230px;
+}
+
+.experience-section{
+    margin-top: 10px;
+    width: 400px;
+}
+
+.project-section{
+    margin:15px 40px 0;
+    justify-content: center;
+}
+
+.project-card{
+    margin: 15px; 
+}
+
+.project-section-placement{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    padding: 2rem;
+    display: grid;
+    justify-content: center;
+}
+
+section{
+    padding: 2rem;
+}
+
+    /* -------------------Footer Sections */
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+        height: max-content;
+    }
+    .footer-section-ux-container{
+        width: 300px;
+    }
+
+
+    .footer-social-icons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-section {
+        margin-bottom: 0;
+    }
+
+    .footer-disclaimer-socials {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 926px) {
+.content{
+    margin-top: 50px;
+}
+
+}
+
+
+@media (max-width: 810px) {
+footer{
+    display:grid;
+    justify-content: center;
+}
+
+.experience-section{
+    margin: 15px 15px 15px 15px;
+}
+
+    .project-section{
+    justify-content: center;
+}
+
+
+.footer-container{
+    justify-content: center;
+}
+
+    .project-card{
+    margin: 15px;
+}
+
+
+    .footer-container {
+    max-width: 600px;
+    margin-top: 25px;
+}
+.footer-section {
+    margin-top: 0px;
+}
+
+
+.hamburger-bar-container{
+transition: opacity color 0.3s ease, background-color 0.3s ease;
+transition-duration: 14s;
+}
+
+.footer-section-ux-container,.footer-section-web-container,.footer-section-security-container,.footer-section-seo-container{
+    margin:45px 15px 15px 15px;
+}
+
+
+}
+
+@media(max-width: 1271px){
+    .experience-section{
+        margin-top: 0;
+    
+    }
+    .content{
+        margin-top: 60px;
+    }
+
+    .experience-card{
+        width: 600px;
+    }
+}
